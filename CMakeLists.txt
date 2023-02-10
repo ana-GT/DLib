@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6)
 project(DLib)
 
 option(BUILD_DUtils   "Build DUtils (basic c++ functions)." ON)
-option(BUILD_DUtilsCV "Build DUtilsCV (OpenCV functions, requires DUtils)." ON)
+option(BUILD_DUtilsCV "Build DUtilsCV (OpenCV functions, requires DUtils)." OFF)
 option(BUILD_DVision  "Build DVision (computer vision functions, requires DUtilsCV)." ON)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
